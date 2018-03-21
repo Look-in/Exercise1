@@ -25,23 +25,6 @@ public abstract class Deposite implements InstanceDeposite {
     public Bank getBank() {
         return bank;
     }
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setBank(Bank bank) { this.bank = bank; }
-
-    public void setPercent(double percent) {
-        this.percent = percent;
-    }
-
-    public void setPeriod(int period) {
-        this.period = period;
-    }
 
     @Override
     public double getPercent() {
